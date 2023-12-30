@@ -9,7 +9,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 70vh;
   background: url(./assets/background.jpg) no-repeat center/cover;
   margin-top: auto;
 }
@@ -23,6 +22,8 @@ body{
   padding: 16px 25px;
   transition: height 0.5s ease;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .container .form {
@@ -85,7 +86,6 @@ body{
   max-width: 350px;
   padding: 15px 175px;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.1); 
-
 }
 
 header h1{
